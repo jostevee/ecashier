@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffb300</color>
+    <color name="colorPrimaryDark">#ff9100</color>
+    <color name="colorPrimaryDarks">#00574b</color>
+    <color name="colorAccent">#d8631b</color>
+    <color name="baru_lagi">#d81b60</color>
+    <color name="baru">#a3c69c</color>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_kasir"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Aplikasi Kasir" />
+        <item
+            android:id="@+id/nav_laporan"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="Laporan" />
+
+    <item
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="ID Activity">
+        <menu>
+            <item
+                android:id="@+id/nav_input_id"
+                android:checkable="true"
+                android:icon="@drawable/ic_format_list_numbered_black_24dp"
+                android:title="@string/input" />
+            <item
+                android:id="@+id/nav_check_id"
+                android:checkable="true"
+                android:icon="@drawable/ic_format_list_numbered_black_24dp"
+                android:title="@string/check" />
+        </menu>
+    </item>
+
+    <item android:title="Kategori Barang">
+        <menu>
+            <item
+                android:id="@+id/nav_input_category"
+                android:checkable="true"
+                android:icon="@drawable/ic_storage_black_24dp"
+                android:title="@string/input" />
+            <item
+                android:id="@+id/nav_check_category"
+                android:checkable="true"
+                android:icon="@drawable/ic_storage_black_24dp"
+                android:title="@string/check" />
+        </menu>
+    </item>
+
+    <item android:title="Jenis Barang">
+        <menu>
+            <item
+                android:id="@+id/nav_input_brand"
+                android:checkable="true"
+                android:icon="@drawable/ic_local_offer_black_24dp"
+                android:title="@string/input" />
+            <item
+                android:id="@+id/nav_check_brand"
+                android:checkable="true"
+                android:icon="@drawable/ic_local_offer_black_24dp"
+                android:title="@string/check" />
+        </menu>
+    </item>
+
+    <item android:title="Nama Barang">
+        <menu>
+            <item
+                android:id="@+id/nav_input_name"
+                android:checkable="true"
+                android:icon="@drawable/ic_text_format_black_24dp"
+                android:title="@string/input" />
+            <item
+                android:id="@+id/nav_check_name"
+                android:checkable="true"
+                android:icon="@drawable/ic_text_format_black_24dp"
+                android:title="@string/check" />
+        </menu>
+    </item>
+
+
+    <item android:title="Nama Supplier">
+        <menu>
+            <item
+                android:id="@+id/nav_input_supplier"
+                android:checkable="true"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="@string/input" />
+            <item
+                android:id="@+id/nav_check_supplier"
+                android:checkable="true"
+                android:icon="@drawable/ic_local_shipping_black_24dp"
+                android:title="@string/check" />
+        </menu>
+    </item>
+
+    <item android:title="Laporan Kas" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_kas_harian"
+                android:checkable="true"
+                android:title="@string/harian" />
+            <item
+                android:id="@+id/nav_kas_bulanan"
+                android:checkable="true"
+                android:title="@string/bulanan" />
+            <item
+                android:id="@+id/nav_kas_tahunan"
+                android:checkable="true"
+                android:title="@string/tahunan" />
+        </menu>
+    </item>
+
+    <item android:title="Laporan Penjualan" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_jual_harian"
+                android:checkable="true"
+                android:title="@string/harian" />
+            <item
+                android:id="@+id/nav_jual_bulanan"
+                android:checkable="true"
+                android:title="@string/bulanan" />
+            <item
+                android:id="@+id/nav_jual_tahunan"
+                android:checkable="true"
+                android:title="@string/tahunan" />
+        </menu>
+    </item>
+
+    <item android:title="Laporan Pembelian" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_beli_harian"
+                android:checkable="true"
+                android:title="@string/harian" />
+            <item
+                android:id="@+id/nav_beli_bulanan"
+                android:checkable="true"
+                android:title="@string/bulanan" />
+            <item
+                android:id="@+id/nav_beli_tahunan"
+                android:checkable="true"
+                android:title="@string/tahunan" />
+        </menu>
+    </item>
+
+    <item android:title="Laporan Laba Rugi" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_laba_harian"
+                android:checkable="true"
+                android:title="@string/harian" />
+            <item
+                android:id="@+id/nav_laba_bulanan"
+                android:checkable="true"
+                android:title="@string/bulanan" />
+            <item
+                android:id="@+id/nav_laba_tahunan"
+                android:checkable="true"
+                android:title="@string/tahunan" />
+        </menu>
+    </item>
+    </group>
+</menu>
